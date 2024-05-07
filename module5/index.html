@@ -18,6 +18,8 @@
           <a href="index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img" alt="Logo image"></div>
           </a>
+          <a href="#" onclick="$dc.loadMenuItems('{{randomCategoryShortName}}');">
+
 
           <div class="navbar-brand">
             <a href="index.html"><h1>David Chu's China Bistro</h1></a>
@@ -71,7 +73,12 @@
   </div>
   <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
 
-  <div id="main-content" class="container"></div>
+<div id="main-content" class="container">
+  <div class="tile" id="menu-tile">Menu</div>
+  <div class="tile" id="specials-tile">Specials</div>
+  <div class="tile" id="map-tile">Map</div>
+</div>
+
 
   <footer class="panel-footer">
     <div class="container">
